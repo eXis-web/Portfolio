@@ -14,15 +14,14 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-5">
-        I am a web developer, working in both, backend and frontend programming. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology and currently doing freelance gigs.
+          I am a frontend web developer with a passion for crafting engaging user experiences. Eager to enhance my skills and explore new technologies, I am actively seeking permanent employment opportunities while also taking on freelance projects.
         </p>
 
         <br />
 
         <p className="text-xl">
-        I like to code matters from scratch and love the idea of bringing thoughts to life. Connect with me to get your project done. <br /> <br />
-        I value minimalistic designs, thoughtful branding of the content, and customer relatable experience. Let’s discover together how we can make your project convert better!<br /> <br />
-        I enjoy creating or redesigning a distinct identity for a product or service, get more traffic from search engine and social platforms.
+        I thrive on building projects from the ground up and find joy in bringing ideas to fruition. Reach out to me to discuss how I can assist with your project. Whether you're looking for ongoing support or need a specific task completed, I'm here to help. <br /> <br />
+        I prioritize innovative solutions aimed at ensuring your project's success, focusing on creating unique experiences and enhancing conversion rates. Let's work together to find the best ways to achieve your goals!<br /> <br />
         </p>
       </div>
     </div>
