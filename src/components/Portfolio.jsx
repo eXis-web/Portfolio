@@ -1,10 +1,10 @@
 import React from "react";
 import ClothingShop from "../assets/portfolio/ClothingShop.jpg";
 import Cinemania from "../assets/portfolio/Cinemania.jpg";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
+import getsBy from "../assets/portfolio/getsBy.jpg";
+import calculator from "../assets/portfolio/calculator.jpg";
+import PhoneBook from "../assets/portfolio/PhoneBook.jpg";
+import imageFinder from "../assets/portfolio/imageFinder.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,27 +22,27 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: webpostman,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      src: imageFinder,
+      link: 'https://exis-web.github.io/goit-js-hw-11/',
+      repo: 'https://github.com/eXis-web/goit-js-hw-11'
     },
     {
       id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
+      src: PhoneBook,
+      link: 'https://exis-web.github.io/react-hw-phonebook/',
+      repo: 'https://github.com/eXis-web/react-hw-phonebook'
     },
     {
       id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
+      src: calculator,
+      link: 'https://exis-web.github.io/Calculator/',
+      repo: 'https://github.com/eXis-web/Calculator'
     },
     {
       id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
+      src: getsBy,
+      link: 'https://getsby-blog.netlify.app/',
+      repo: 'https://github.com/eXis-web/gatsby-blog'
     },
   ];
 
