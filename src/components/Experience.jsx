@@ -4,12 +4,12 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
+import typeScript from "../assets/typescript-1024.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import node from "../assets/node.png";
-import express from "../assets/express.png"
+import webPack from "../assets/webpack.png";
+import firebase from "../assets/Firebase.png"
 import mongodb from "../assets/mongodb.png"
 import redux from "../assets/redux.png"
 const Experience = () => {
@@ -40,15 +40,15 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: node,
-      title: "NodeJs",
-      style: "shadow-green-400",
+      src: webPack,
+      title: "WebPack",
+      style: "shadow-white",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: typeScript,
+      title: "TypeScript",
+      style: "shadow-blue-500",
     },
     {
       id: 7,
@@ -70,9 +70,9 @@ const Experience = () => {
     },
     {
       id: 10,
-      src: express,
-      title: "Express",
-      style: "shadow-white",
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-800",
     },
     {
       id: 11,
