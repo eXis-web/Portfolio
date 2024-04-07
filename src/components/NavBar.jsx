@@ -3,7 +3,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false); // State for toggling the side navigation
+
 
   const links = [
     {
