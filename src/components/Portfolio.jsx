@@ -1,6 +1,6 @@
 import React from "react";
-import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
+import ClothingShop from "../assets/portfolio/ClothingShop.jpg";
+import Cinemania from "../assets/portfolio/Cinemania.jpg";
 import iptracker from "../assets/portfolio/iptracker.jpg";
 import nftportal from "../assets/portfolio/nftportal.jpg";
 import webpostman from "../assets/portfolio/webpostman.jpg";
@@ -10,19 +10,19 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      src: ClothingShop,
+      link: 'https://cloth1ngshop.netlify.app/',
+      repo: 'https://github.com/eXis-web/Clothing-Shop'
     },
     {
       id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      src: Cinemania,
+      link: 'https://exis-web.github.io/Cinemania/',
+      repo: 'https://github.com/eXis-web/Cinemania'
     },
     {
       id: 3,
-      src: apod,
+      src: webpostman,
       link: 'https://apodbyrahul.netlify.app/',
       repo: 'https://github.com/rahulkarda/NASA-APOD'
     },
