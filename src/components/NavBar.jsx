@@ -6,7 +6,7 @@ const NavBar = () => {
   const [nav, setNav] = useState(false); // State for toggling the side navigation
 
 
-  const links = [
+  const links = [  // Array of links for navigation
     {
       id: 1,
       link: "home",
@@ -48,6 +48,7 @@ const NavBar = () => {
         ))}
       </ul>
 
+      {/* Burger menu for mobile view */}
       <div
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
@@ -55,6 +56,7 @@ const NavBar = () => {
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
+      {/* Side menu for mobile view */}
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
           {links.map(({ id, link }) => (
@@ -62,6 +64,7 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
+              {/* Links to sections with closing side menu on click */}
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}
