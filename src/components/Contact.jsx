@@ -1,9 +1,9 @@
 import React from "react";
 
-//function for form reset
-function handleSubmit(e){
+// Function to handle form submission and reset it after 3 seconds
+function handleSubmit(e) {
   setTimeout(() => {
-    e.target.reset();
+    e.target.reset(); // Reset the form after a 3-second delay
   }, 3000);
 }
 
@@ -20,10 +20,10 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        
+
         <div className=" flex justify-center items-center">
           <form
-            onSubmit={handleSubmit}
+            onSubmit={handleSubmit} // Call handleSubmit function on form submit
             name="contact"
             method="POST"
             action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
@@ -36,6 +36,7 @@ const Contact = () => {
               required
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
+            {/* Input field for name with required attribute */}
             <input
               type="email"
               name="email"
@@ -43,15 +44,20 @@ const Contact = () => {
               required
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
+            {/* Input field for email with required attribute */}
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="10"
               required
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-            ></textarea>
+            />
+            {/* Text area for message with required attribute */}
 
-            <button type="submit" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button
+              type="submit"
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+            >
               Send Message
             </button>
           </form>
