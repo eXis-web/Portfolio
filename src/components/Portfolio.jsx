@@ -7,6 +7,7 @@ import PhoneBook from "../assets/portfolio/PhoneBook.jpg";
 import imageFinder from "../assets/portfolio/imageFinder.jpg";
 
 const Portfolio = () => {
+  // Array containing portfolio items with their details
   const portfolios = [
     {
       id: 1,
@@ -53,24 +54,32 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
+          {/* Portfolio section title */}
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
+          {/* Portfolio section description */}
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
+        {/* Portfolio items grid */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {/* Map through portfolio items and display each */}
           {portfolios.map(({ id, src, link, repo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+              {/* Portfolio item image */}
               <img
                 src={src}
                 alt="projects"
                 className="rounded-md duration-200 hover:scale-105"
               />
+              {/* Buttons to view demo and GitHub repository */}
               <div className="flex items-center justify-center">
+                {/* Button to view demo */}
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
                   Demo
                 </button>
+                {/* Button to view GitHub repository */}
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(repo, '_blank')}>
                   GitHub
                 </button>
