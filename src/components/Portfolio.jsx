@@ -92,4 +92,6 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Portfolio
+
+//here is the code for the portfolio
