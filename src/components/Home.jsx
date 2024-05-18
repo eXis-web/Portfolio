@@ -25,7 +25,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             I have 2 years of experience building websites and designing software.
             I love to work on web applications using technologies like
-            JavaScript, React, TS, Tailwind, GraphQL.
+            JavaScript, React, TS, Vue.js, Tailwind, GraphQL.
           </p>
 
           <div className="portfolio-btn">
