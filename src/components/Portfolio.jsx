@@ -1,7 +1,7 @@
 import React from "react";
 import ClothingShop from "../assets/portfolio/ClothingShop.jpg";
 import Cinemania from "../assets/portfolio/Cinemania.jpg";
-import getsBy from "../assets/portfolio/getsBy.jpg";
+import AwesomeCube from "../assets/portfolio/AwesomeCube.jpg";
 import calculator from "../assets/portfolio/calculator.jpg";
 import PhoneBook from "../assets/portfolio/PhoneBook.jpg";
 import imageFinder from "../assets/portfolio/imageFinder.jpg";
@@ -23,27 +23,27 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: AwesomeCube,
+      link: 'https://awesome-cubes.netlify.app',
+      repo: 'https://github.com/eXis-web/CubeShop'
+    },
+    {
+      id: 4,
       src: imageFinder,
       link: 'https://exis-web.github.io/goit-js-hw-11/',
       repo: 'https://github.com/eXis-web/goit-js-hw-11'
     },
     {
-      id: 4,
+      id: 5,
       src: PhoneBook,
       link: 'https://exis-web.github.io/react-hw-phonebook/',
       repo: 'https://github.com/eXis-web/react-hw-phonebook'
     },
     {
-      id: 5,
+      id: 6,
       src: calculator,
       link: 'https://exis-web.github.io/Calculator/',
       repo: 'https://github.com/eXis-web/Calculator'
-    },
-    {
-      id: 6,
-      src: getsBy,
-      link: 'https://getsby-blog.netlify.app/',
-      repo: 'https://github.com/eXis-web/gatsby-blog'
     },
   ];
 
