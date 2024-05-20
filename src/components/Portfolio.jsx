@@ -3,7 +3,7 @@ import ClothingShop from "../assets/portfolio/ClothingShop.jpg";
 import Cinemania from "../assets/portfolio/Cinemania.jpg";
 import AwesomeCube from "../assets/portfolio/AwesomeCube.jpg";
 import calculator from "../assets/portfolio/calculator.jpg";
-import PhoneBook from "../assets/portfolio/PhoneBook.jpg";
+import PowerPulse from "../assets/portfolio/PowerPulse.jpg";
 import imageFinder from "../assets/portfolio/imageFinder.jpg";
 
 const Portfolio = () => {
@@ -29,15 +29,15 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: imageFinder,
-      link: 'https://exis-web.github.io/goit-js-hw-11/',
-      repo: 'https://github.com/eXis-web/goit-js-hw-11'
+      src: PowerPulse,
+      link: 'https://power-pulse-fit.netlify.app',
+      repo: 'https://github.com/eXis-web/Fit-app'
     },
     {
       id: 5,
-      src: PhoneBook,
-      link: 'https://exis-web.github.io/react-hw-phonebook/',
-      repo: 'https://github.com/eXis-web/react-hw-phonebook'
+      src: imageFinder,
+      link: 'https://exis-web.github.io/goit-js-hw-11/',
+      repo: 'https://github.com/eXis-web/goit-js-hw-11'
     },
     {
       id: 6,

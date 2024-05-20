@@ -12,6 +12,10 @@ import webPack from "../assets/webpack.png";
 import firebase from "../assets/Firebase.png"
 import mongodb from "../assets/mongodb.png"
 import redux from "../assets/redux.png"
+import jest from "../assets/jest.png";
+import vuejs from "../assets/vuejs.png";
+import docker from "../assets/docker.png";
+
 const Experience = () => {
   const techs = [
     {
@@ -36,52 +40,70 @@ const Experience = () => {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-blue-400",
     },
     {
       id: 5,
+      src: vuejs,
+      title: "Vue.js",
+      style: "shadow-green-900",
+    },
+    {
+      id: 6,
+      src: jest,
+      title: "Jest",
+      style: "shadow-red-900",
+    },
+    {
+      id: 7,
+      src: docker,
+      title: "Docker",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 8,
       src: webPack,
       title: "WebPack",
       style: "shadow-white",
     },
     {
-      id: 6,
+      id: 9,
       src: typeScript,
       title: "TypeScript",
       style: "shadow-blue-500",
     },
     {
-      id: 7,
+      id: 10,
       src: graphql,
       title: "GraphQL",
       style: "shadow-pink-400",
     },
     {
-      id: 8,
+      id: 11,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 12,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 10,
+      id: 13,
       src: firebase,
       title: "Firebase",
       style: "shadow-yellow-800",
     },
     {
-      id: 11,
+      id: 14,
       src: mongodb,
       title: "MongoDB",
       style: "shadow-green-500",
     },
     {
-      id: 12,
+      id: 15,
       src: redux,
       title: "Redux",
       style: "shadow-purple-500",
